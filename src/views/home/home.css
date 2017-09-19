@@ -1,0 +1,12 @@
+h2 {
+  color: red;
+  text-align: center;
+
+  span {
+    color: #000000;
+  }
+
+  em {
+    color: #888;
+  }
+}
