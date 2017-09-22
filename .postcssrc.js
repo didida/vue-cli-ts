@@ -4,6 +4,14 @@ module.exports = {
   "plugins": {
     // to edit target browsers: use "browserslist" field in package.json
     "autoprefixer": {},
-    "precss": {}
+    "precss": {},
+    "postcss-bem": {
+      shortcuts: {
+        'component-namespace': 'namespace',
+        'component': 'block',
+        'descendent': 'element',
+        'modifier': 'modify'
+      }
+    }
   }
 }
